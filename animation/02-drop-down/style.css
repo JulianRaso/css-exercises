@@ -35,3 +35,23 @@ ul {
 li {
   padding: 16px;
 }
+
+
+/* Solution */
+
+.dropdown-menu ul{
+  display: none;
+  transition: display .5s;
+}
+
+.dropdown-menu:hover ul{
+  display: block;
+}
+
+li {
+  transition: background-color .2s;
+}
+
+li:hover{
+  background-color: lightgrey;
+}
